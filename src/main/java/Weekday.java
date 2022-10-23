@@ -6,6 +6,6 @@ public class Weekday {
     }
 
     public String isItFriday() {
-        return weekday.equals("Friday") ? "TGIF" : "Nope";
+        return "Friday".equals(weekday) ? "TGIF" : "Nope";
     }
 }
